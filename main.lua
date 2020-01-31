@@ -543,7 +543,7 @@ function lolol()
       offical.setVisibility(View.GONE)
       -- 未认证帐号隐藏认证相关区域
     else
-      offical.setText(officaltitle.." "..desc)
+      offical.setText(officaltitle.."\n"..desc)
       -- 设置认证相关文字，含子标题
     end
 
