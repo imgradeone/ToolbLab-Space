@@ -185,6 +185,9 @@ function lolol()
     end
     -- 彩蛋
 
+    webView.removeView(webView.getChildAt(0))
+    -- 优化性能，避免开一堆个人空间会卡
+
     lay={
       LinearLayout;
       layout_width="fill";
